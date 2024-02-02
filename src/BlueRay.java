@@ -1,6 +1,6 @@
-public class LP extends Storage{
+public class BlueRay extends Storage {
 
-    public LP(String nombre, double capacidad, String[] contenido, String tipo) {
+    public BlueRay(String nombre, double capacidad, String[] contenido, String tipo) {
         super(nombre, capacidad, contenido, tipo);
     }
 
@@ -16,12 +16,12 @@ public class LP extends Storage{
 
     @Override
     public String tipoEscritura() {
-        return ("Usando un torno que vibra");
+        return ("Escritura de datos por laser");
     }
 
     @Override
     public String tipoLectura() {
-        return ("Usando un tocadiscos");
+        return ("Usando un lector laser");
     }
 
     @Override
